@@ -5,7 +5,8 @@ cache: pip
 install:
   - pip install -r requirements.txt
   - pip install pytest
-  - pip install pylint
+  - pip install pep8
 script:
-  - make lint
+  - num_errors_before=`find . -name \*.py -exec pep8 --ignore=E402 {} + | wc -l`
+  - echo $num_errors_before
   - python tests.py
