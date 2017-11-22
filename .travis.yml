@@ -6,5 +6,5 @@ install:
   - pip install -r requirements.txt
   - pip install pycodestyle
 script:
-  - pycodestyle .
+  - pycodestyle --ignore=E501,E266,E302,W292 .
   - python tests.py
