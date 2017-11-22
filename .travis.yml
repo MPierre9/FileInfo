@@ -7,6 +7,6 @@ install:
   - pip install pytest
   - pip install pep8
 script:
-  - num_errors_before=`find . -name \*.py -exec pep8 --ignore=E402 {} + | wc -l`
+  - find . -name \*.py -exec pep8 --ignore=E402 {} +
   - echo $num_errors_before
   - python tests.py
