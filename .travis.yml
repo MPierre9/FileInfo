@@ -4,8 +4,7 @@ python:
 cache: pip
 install:
   - pip install -r requirements.txt
-  - pip install pytest
-  - pip install pep8
+  - pip install pycodestyle
 script:
-  - pep8 *.py
+  - pycodestyle .
   - python tests.py
