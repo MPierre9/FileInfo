@@ -5,6 +5,7 @@ cache: pip
 install:
   - pip install -r requirements.txt
   - pip install pytest
+  - pip install pylint
 script:
-  - pytest --pylint
+  - pylint --errors-only
   - python tests.py
