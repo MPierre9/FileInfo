@@ -4,4 +4,3 @@ import ntpath
 def getFilename(path):
     path, fileName = ntpath.split(path)
     return fileName
-
