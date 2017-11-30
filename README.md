@@ -24,6 +24,11 @@ File Info is a Python library which contains various useful file functions. Curr
 1. Your good to go! Feel free to use FileInfo's functions in your code!
 
 
+
+
 ## Usage 
 
 ##### getFileSize
+
+Summary: This function returns the size of a file, in bytes
+To use, call the function as follows `print getFileSize("path/to/file")`
