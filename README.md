@@ -30,20 +30,20 @@ File Info is a Python library which contains various useful file functions. Curr
 
 ## Usage 
 
-##### getFileSize
+#### getFileSize
 
 **Summary**: This function returns the size of a file, in bytes
 To use, call the function as follows: 
 `print getFileSize("path/to/file")`
 
-##### getFilename
+#### getFilename
 
 **Summary**: The following function returns the filename when given a path
  To use simply pass your desired path as a string into the function getFilename:
  `print getFilename("path/to/file");`
 
 
- ##### getMd5Digest 
+ #### getMd5Digest 
 
  **Summary**: The following function returns the MD5 digest from a file containing text.
  To use, call the function as follows: 
@@ -51,8 +51,14 @@ To use, call the function as follows:
 
 
 
-##### getSha1Digest 
+#### getSha1Digest 
 
 **Summary**: The following function returns the sha1 digest from a file containing text.
 To use, call the function as follows:
 `print getSha1Digest("path/to/file")`
+
+
+## Author
+
+**FileInfo**  [MPierre9](https://github.com/MPierre9), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by DIYgod with help from contributors ([list](https://github.com/DIYgod/FileInfo/contributors)).
