@@ -17,7 +17,7 @@ File Info is a Python library which contains various useful file functions. Curr
 
 1. Import FileInfo functions in your project 
 
-`from getFilename import getFilename
-from getFileSize import getFileSize
-from getMd5Digest import getMd5Digest
-from getSha1Digest import getSha1Digest`
+`from getFilename import getFilename`
+`from getFileSize import getFileSize`
+`from getMd5Digest import getMd5Digest`
+`from getSha1Digest import getSha1Digest` 
