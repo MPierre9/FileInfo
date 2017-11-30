@@ -57,8 +57,11 @@ To use, call the function as follows:
 To use, call the function as follows:
 `print getSha1Digest("path/to/file")`
 
+## Contributing
+
+Contributions are welcome! Please read the contribution documents for tips and guidelines on contributing
 
 ## Author
 
 **FileInfo**  [MPierre9](https://github.com/MPierre9), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by DIYgod with help from contributors ([list](https://github.com/MPierre9/FileInfo/contributors)).
+Authored and maintained by MPierre9 with help from contributors ([list](https://github.com/MPierre9/FileInfo/contributors)).
