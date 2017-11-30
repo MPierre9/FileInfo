@@ -20,3 +20,10 @@ File Info is a Python library which contains various useful file functions. Curr
    * `from getFileSize import getFileSize`
    * `from getMd5Digest import getMd5Digest`
    * `from getSha1Digest import getSha1Digest` 
+   
+1. Your good to go! Feel free to use FileInfo's functions in your code!
+
+
+## Usage 
+
+##### getFileSize
