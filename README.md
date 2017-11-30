@@ -11,6 +11,8 @@ File Info is a Python library which contains various useful file functions. Curr
 
 ## Installation 
 
+1. Install the latest version of [Python](https://www.python.org/) 
+
 1. Install/Start your preferred Python IDE (FileInfo was developed in [Visual Studio 2015](https://www.visualstudio.com/downloads/))
 
 1. Clone the FileInfo repository `git clone https://github.com/MPierre9/FileInfo.git`
@@ -30,11 +32,27 @@ File Info is a Python library which contains various useful file functions. Curr
 
 ##### getFileSize
 
-Summary: This function returns the size of a file, in bytes
+**Summary**: This function returns the size of a file, in bytes
 To use, call the function as follows: 
 `print getFileSize("path/to/file")`
 
 ##### getFilename
 
-Summary: The following function returns the filename when given a path
- To use simply pass your desired path as a string into the function getFilename
+**Summary**: The following function returns the filename when given a path
+ To use simply pass your desired path as a string into the function getFilename:
+ `print getFilename("path/to/file");`
+
+
+ ##### getMd5Digest 
+
+ **Summary**: The following function returns the MD5 digest from a file containing text.
+ To use, call the function as follows: 
+ `print getMd5Digest("path/to/file")`
+
+
+
+##### getSha1Digest 
+
+**Summary**: The following function returns the sha1 digest from a file containing text.
+To use, call the function as follows:
+`print getSha1Digest("path/to/file")`
