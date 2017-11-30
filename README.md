@@ -59,7 +59,7 @@ To use, call the function as follows:
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution document](./CONTRIBUTE) for tips and guidelines on contributing
+Contributions are welcome! Please read the [contribution document](./CONTRIBUTE.md) for tips and guidelines on contributing
 
 ## Author
 
