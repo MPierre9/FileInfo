@@ -61,4 +61,4 @@ To use, call the function as follows:
 ## Author
 
 **FileInfo**  [MPierre9](https://github.com/MPierre9), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by DIYgod with help from contributors ([list](https://github.com/DIYgod/FileInfo/contributors)).
+Authored and maintained by DIYgod with help from contributors ([list](https://github.com/MPierre9/FileInfo/contributors)).
